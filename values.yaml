@@ -3,20 +3,19 @@ credentials:
   password: "your_password"
 login_url: "https://your-timesheet-portal.com/login"
 schedule:
-  mon:
     start: "09:00"
     end: "17:00"
-  tue:
     start: "09:00"
     end: "17:00"
-  wed:
     start: "09:00"
     end: "17:00"
-  thu:
     start: "09:00"
     end: "17:00"
-  fri:
     start: "09:00"
     end: "17:00"
 project: "PROJECT_CODE"
-discord_webhook: "https://discord.com/api/webhooks/your-webhook-url"
+discord_webhook: "https://discord.com/api/webhooks/your-webhook-url"  monday:
+  tuesday:
+  wednesday:
+  thursday:
+  friday:
