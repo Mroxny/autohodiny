@@ -36,7 +36,7 @@ For daily execution, set up a scheduler:
 
 * **Linux/Mac**: Use cron
     ```bash
-    0 18 * * 1-5 cd /path/to/script && python timesheet_autofill.py
+    0 18 * * 1-5 cd /path/to/script && python app.py
     ```
 * **Windows**: Use Task Scheduler
 
