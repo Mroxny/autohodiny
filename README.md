@@ -11,7 +11,7 @@ A Python script that automatically fills timesheet entries on a hodiny web porta
 
 ## Installation
 
-1. **Clone the repository**
+1. Clone the repository
    ```bash
    git clone https://github.com/Mroxny/autohodiny.git
    cd autohodiny
