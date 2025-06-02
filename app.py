@@ -1,3 +1,4 @@
+import os
 import yaml
 import datetime
 import calendar
@@ -10,7 +11,8 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.common.exceptions import TimeoutException, NoSuchElementException
 
-CONFIG_FILE = 'values.yaml'
+
+CONFIG_FILE = os.path.join(os.path.dirname(os.path.abspath(__file__)),'values.yaml')
 
 def load_config():
     with open(CONFIG_FILE) as f:
